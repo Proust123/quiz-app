@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+
+    <style>
+
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+        background-color: #b8c6db;
+        background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        /* overflow: hidden; */
+        margin: 0;
+        }
+
+        .quiz-container {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+        width: 900px;
+        overflow: hidden;
+        }
+
+        .quiz-header {
+        padding: 4rem;
+        }
+
+        .quiz-header h2 {
+        padding: 1rem;
+        text-align: center;
+        margin: 0;
+        }
+
+        .quiz-header ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        }
+
+        .quiz-header ul li {
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        margin-left: auto;
+        }
+
+        .quiz-header ul li label {
+        cursor: pointer;
+        }
+
+        .quiz-container button {
+        background-color: #8e44ad;
+        color: #fff;
+        border: none;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-family: inherit;
+        padding: 1.3rem;
+        }
+
+        .quiz-container button:hover {
+        background-color: #732d91;
+        }
+
+        .quiz-container button:focus {
+        outline: none;
+        background-color: #5e3370;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a1" class="answer">
+                    <label for="a1" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="b1" class="answer">
+                    <label for="b1" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="c1" class="answer">
+                    <label for="c1" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="d1" class="answer">
+                    <label for="d1" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer2" id="a2" class="answer">
+                    <label for="a2" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer2" id="b2" class="answer">
+                    <label for="b2" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer2" id="c2" class="answer">
+                    <label for="c2" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer2" id="d2" class="answer">
+                    <label for="d2" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer3" id="a3" class="answer">
+                    <label for="a3" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer3" id="b3" class="answer">
+                    <label for="b3" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer3" id="c3" class="answer">
+                    <label for="c3" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer3" id="d3" class="answer">
+                    <label for="d3" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer4" id="a4" class="answer">
+                    <label for="a4" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer4" id="b4" class="answer">
+                    <label for="b4" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer4" id="c4" class="answer">
+                    <label for="c4" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer4" id="d4" class="answer">
+                    <label for="d4" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer5" id="a5" class="answer">
+                    <label for="a5" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer5" id="b5" class="answer">
+                    <label for="b5" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer5" id="c5" class="answer">
+                    <label for="c5" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer5" id="d5" class="answer">
+                    <label for="d5" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer6" id="a6" class="answer">
+                    <label for="a6" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer6" id="b6" class="answer">
+                    <label for="b6" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer6" id="c6" class="answer">
+                    <label for="c6" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer6" id="d6" class="answer">
+                    <label for="d6" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer7" id="a7" class="answer">
+                    <label for="a7" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer7" id="b7" class="answer">
+                    <label for="b7" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer7" id="c7" class="answer">
+                    <label for="c7" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer7" id="d7" class="answer">
+                    <label for="d7" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer8" id="a8" class="answer">
+                    <label for="a8" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer8" id="b8" class="answer">
+                    <label for="b8" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer8" id="c8" class="answer">
+                    <label for="c8" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer8" id="d8" class="answer">
+                    <label for="d8" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer9" id="a9" class="answer">
+                    <label for="a9" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer9" id="b9" class="answer">
+                    <label for="b9" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer9" id="c9" class="answer">
+                    <label for="c9" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer9" id="d9" class="answer">
+                    <label for="d9" class="d_text">Question</label>
+                </li>
+            </ul>
+            <h2 class="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer10" id="a10" class="answer">
+                    <label for="a10" class="a_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer10" id="b10" class="answer">
+                    <label for="b10" class="b_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer10" id="c10" class="answer">
+                    <label for="c10" class="c_text">Question</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer10" id="d10" class="answer">
+                    <label for="d10" class="d_text">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+
+    <script src="./script50.js"></script>
+
+</body>
+</html>
